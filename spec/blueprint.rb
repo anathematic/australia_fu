@@ -3,7 +3,8 @@ require 'sham'
 # require 'forgery'
 
 Sham.define do
-  name { |i| i.to_s + "-" + rand(50).to_s }
+  state { |i| i.to_s + "-" + AustraliaFu.state }
+  postcode { AustraliaFu.postcode }
 end
 
 Dir[File.join(File.dirname(__FILE__), "blueprints", "*.rb")].each { |f| require f }

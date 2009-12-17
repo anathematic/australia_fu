@@ -1,3 +1,3 @@
 State.blueprint do
-  name
+  name { Sham.state }
 end

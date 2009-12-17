@@ -28,3 +28,4 @@ config.action_mailer.delivery_method = :test
 # config.active_record.schema_format = :sql
 
 config.gem "machinist", :source => "http://gemcutter.org", :version => ">=1.0.6"
+config.gem 'forgery', :source => 'http://gemcutter.org'

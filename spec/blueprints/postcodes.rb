@@ -1,3 +1,3 @@
 Postcode.blueprint do
-  name
+  name { Sham.postcode }
 end
